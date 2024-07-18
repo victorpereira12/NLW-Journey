@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-
+    text-decoration: none;
 }
 body{
     background: black;
@@ -130,6 +130,20 @@ time {
 time.full {
     display: none;
 }
+.footer{
+    padding: 40px 20px;
+    max-width: 320px;
+    margin: auto;
+}
+footer {
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px #aff445 solid;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
 @media (width > 1024px) {
     #app{
         display: flex;
@@ -148,6 +162,9 @@ time.full {
     }
     time.short {
         display: none;
+    }
+    .footer{
+        max-width: 500px;
     }
 }
 section .card-bg {
